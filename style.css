@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+ 
+
+  & #ball1, #ball3{
+    animation: jump-up .6s ease 0s infinite ;
+  }
+  & #ball2, #ball4{
+    animation: jump-down .6s ease 0s infinite ;
+  }
+}
+
+@keyframes jump-up{
+
+  0% {
+    transform: translateY(-50px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-50px) ;
+  }
+} 
+@keyframes jump-down{
+
+  0% {
+    transform: translateY(50px) ;
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(50px) ;
+  }
+} 
+@media screen and (max-width: 1014px) {
+    .container {
+  
+      display: flex;
+   
+    }
+
+    #ball1 {
+        display: none;
+    }
+    #ball3{
+        animation:
+      }
+    #ball2, #ball4{
+        animation: jump-down .3s ease 0s infinite ;
+      }
+
+    
+  }
+@media screen and (max-width: 800px) {
+   
+
+    #ball2 {
+        display: none;
+    }
+    
+  }
+@media screen and (max-width: 500px) {
+   
+
+    #ball3 {
+        display: none;
+    }
+    
+  }
+
