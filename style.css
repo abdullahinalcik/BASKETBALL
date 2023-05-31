@@ -11,10 +11,10 @@ body {
  
 
   & #ball1, #ball3{
-    animation: jump-up .6s ease 0s infinite ;
+    animation: jump-up .3s ease 0s infinite ;
   }
   & #ball2, #ball4{
-    animation: jump-down .6s ease 0s infinite ;
+    animation: jump-down .3s ease 0s infinite ;
   }
 }
 
