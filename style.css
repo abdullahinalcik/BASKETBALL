@@ -17,6 +17,10 @@ body {
     animation: jump-down .2s ease 0s infinite ;
   }
 }
+img{
+  border-radius: 50%;
+}
+
 
 @keyframes jump-up{
 
